@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className="my-8">
               <a
-                href="../assets/English_CV_Maximiliano_Cidron.pdf"
+                href="https://github.com/MaximilianoCidron/Portfolio/blob/c35dd6c826a255ba8f55efffd8d420cdd61beec9/src/assets/English_CV_Maximiliano_Cidron.pdf#L1"
                 download
                 className="mx-2 py-3 font-bold text-black group relative px-[58px] transition-all duration-700"
               >
