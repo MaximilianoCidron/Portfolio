@@ -9,9 +9,11 @@ import REDUX from "../assets/redux.png";
 import GITHUB from "../assets/github.png";
 import GITHUBLIGHT from "../assets/githubLight.png";
 import NODE from "../assets/node.png";
+import POSTGRESQL from "../assets/postgresql.png";
 import EXPRESS from "../assets/expressjs.png";
 import SEQUELIZE from "../assets/sequelize.png";
 import TAILWIND from "../assets/tailwind.png";
+import MONGO from "../assets/mongo.png";
 import { ThemeContext } from "./themeContext";
 
 const About = () => {
@@ -95,7 +97,7 @@ const About = () => {
             </p>
           </div>
           <div className="col-span-2 lg:col-span-3">
-            <div className="w-full font-semibold grid grid-cols-2 lg:grid-cols-5 gap-4 text-center py-8">
+            <div className="w-full font-semibold grid grid-cols-2 lg:grid-cols-6 gap-4 text-center py-8">
               <div className="relative group transition-all">
                 <img
                   className="w-20 max-h-20 mx-auto my-1"
@@ -183,6 +185,18 @@ const About = () => {
               <div className="relative group transition-all">
                 <img
                   className="w-20 max-h-20 mx-auto my-1"
+                  src={POSTGRESQL}
+                  alt="POSTGRESQL Icon"
+                />
+                <p>PostgreSQL</p>
+                <span className="absolute -bottom-1 right-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -top-1 left-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -bottom-1 right-0 w-1 h-0 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:h-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -top-1 left-0 w-1 h-0 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:h-full group-hover:transition-all group-hover:duration-700"></span>
+              </div>
+              <div className="relative group transition-all">
+                <img
+                  className="w-20 max-h-20 mx-auto my-1"
                   src={EXPRESS}
                   alt="EXPRESS Icon"
                 />
@@ -199,6 +213,18 @@ const About = () => {
                   alt="SEQUELIZE Icon"
                 />
                 <p>Sequelize</p>
+                <span className="absolute -bottom-1 right-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -top-1 left-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -bottom-1 right-0 w-1 h-0 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:h-full group-hover:transition-all group-hover:duration-700"></span>
+                <span className="absolute -top-1 left-0 w-1 h-0 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:h-full group-hover:transition-all group-hover:duration-700"></span>
+              </div>
+              <div className="relative group transition-all">
+                <img
+                  className="w-20 max-h-20 mx-auto my-1"
+                  src={MONGO}
+                  alt="MONGO Icon"
+                />
+                <p>MongoDB</p>
                 <span className="absolute -bottom-1 right-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
                 <span className="absolute -top-1 left-0 w-0 h-1 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:w-full group-hover:transition-all group-hover:duration-700"></span>
                 <span className="absolute -bottom-1 right-0 w-1 h-0 bg-light_subtitle dark:bg-subtitle duration-700 group-hover:h-full group-hover:transition-all group-hover:duration-700"></span>
