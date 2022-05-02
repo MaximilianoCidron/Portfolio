@@ -44,10 +44,10 @@ const Contact = () => {
           <div className="my-4 flex items-center justify-center lg:col-span-2">
             <button
               type="submit"
-              className=" mx-2  py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+              className=" mx-2  py-3 font-bold text-black group relative px-6 transition-all duration-700"
             >
               <span className="absolute inset-0 w-full h-full transition duration-700 transform -translate-x-1 -translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-              <span className="absolute inset-0 w-full h-full transition duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+              <span className="absolute inset-0 w-full h-full transition duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
               <span className="relative">
                 Let's collaborate
               </span>

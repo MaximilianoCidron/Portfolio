@@ -78,30 +78,30 @@ function Work() {
                 <div className="my-8">
                   <a
                     href="https://nokler-noklerhenry.vercel.app/"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Visit</span>
                   </a>
                 </div>
                 <div className="my-8">
                   <a
                     href="https://github.com/noklerhenry/nokler-client"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Repository</span>
                   </a>
                 </div>
                 <div className="my-8">
                   <a
                     href="https://nokler-noklerhenry.vercel.app/"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Video</span>
                   </a>
                 </div>
@@ -168,30 +168,30 @@ function Work() {
                 <div className="my-8">
                   <a
                     href="/"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Visit</span>
                   </a>
                 </div>
                 <div className="my-8">
                   <a
                     href="https://github.com/MaximilianoCidron/PI-Videogames-main"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_subtitle dark:bg-subtitle ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Repository</span>
                   </a>
                 </div>
                 <div className="my-8">
                   <a
                     href="/"
-                    className="mx-2 py-3 font-bold text-light_structure dark:text-structure group relative px-6 transition-all duration-700"
+                    className="mx-2 py-3 font-bold text-black group relative px-6 transition-all duration-700"
                   >
                     <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
+                    <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                     <span className="relative">Video</span>
                   </a>
                 </div>

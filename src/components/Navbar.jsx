@@ -121,7 +121,7 @@ const Navbar = () => {
 
       <div onClick={handleClick} className="lg:hidden z-10 text-4xl">
         <button className="relative group">
-          <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all duration-300 shadow-md">
+          <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all duration-300">
             <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
               <div
                 className={

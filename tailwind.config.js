@@ -15,7 +15,7 @@ module.exports = {
         'light_background': '#fcfefe',
         'light_structure': '#d3d5d0',
         'light_text': '#1f1533',
-        'light_hover': '#b91319',
+        'light_hover': '#d8291a',
         'light_title': '#dd8500',
         'light_subtitle': '#6ca779',
       },
