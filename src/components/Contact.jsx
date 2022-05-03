@@ -17,24 +17,28 @@ const Contact = () => {
         </div>
         <div className="max-w-5xl w-full px-6 grid lg:grid-cols-2">
           <input
+            required
             type="text"
             placeholder="Name"
             name="name"
             className="my-4 mx-6 p-2 border-2 font-semibold placeholder-light_text dark:placeholder-text border-light_structure dark:border-structure focus:border-2 focus:border-light_subtitle focus:dark:border-subtitle focus:outline-none bg-light_structure dark:bg-structure text-light_text dark:text-text transition-all duration-700"
           />
           <input
+            required
             type="email"
             placeholder="Email"
             name="email"
             className="my-4 mx-6 p-2 border-2 font-semibold placeholder-light_text dark:placeholder-text border-light_structure dark:border-structure focus:border-2 focus:border-light_subtitle focus:dark:border-subtitle focus:outline-none bg-light_structure dark:bg-structure text-light_text dark:text-text transition-all duration-700"
           />
           <input
+            required
             type="subject"
             placeholder="Subject"
             name="subject"
             className="my-4 mx-6 p-2 border-2 font-semibold placeholder-light_text dark:placeholder-text border-light_structure dark:border-structure focus:border-2 focus:border-light_subtitle focus:dark:border-subtitle focus:outline-none bg-light_structure dark:bg-structure text-light_text dark:text-text lg:col-span-2 transition-all duration-700"
           />
           <textarea
+            required
             name="message"
             placeholder="Message"
             cols="30"
