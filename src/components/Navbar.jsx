@@ -30,7 +30,7 @@ const Navbar = () => {
           duration={1500}
         >
           <img
-            src={ theme === "dark" ? PortfolioLogo : PortfolioLogoLight }
+            src={theme === "dark" ? PortfolioLogo : PortfolioLogoLight}
             alt="Logo"
             className="h-[110px] m-2 cursor-pointer transition-all duration-700"
           />
@@ -57,12 +57,12 @@ const Navbar = () => {
           <p className="relative group">
             <Link
               activeClass="active"
-              to="work"
+              to="about"
               spy={true}
               smooth={true}
               duration={1500}
             >
-              My work
+              About
             </Link>
             <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
             <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
@@ -72,12 +72,12 @@ const Navbar = () => {
           <p className="relative group">
             <Link
               activeClass="active"
-              to="about"
+              to="work"
               spy={true}
               smooth={true}
               duration={1500}
             >
-              About
+              My work
             </Link>
             <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
             <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
@@ -110,6 +110,18 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
+            <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
+          </p>
+        </li>
+        <li className="mx-4 px-4 items-center">
+          <p className="relative group">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1KcoO5m6PrdzQUlly8j0yyv8EpRW0GRfF"
+              download
+            >
+              Resume ↓
+            </a>
             <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
             <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-light_hover dark:bg-hover transition-all duration-700 group-hover:w-1/2 group-hover:transition-all group-hover:duration-700"></span>
           </p>
@@ -154,10 +166,10 @@ const Navbar = () => {
           menu ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <li className="py-8 text-4xl">
+        <li className="py-6 text-4xl" onClick={handleClick}>
           <Toggle />
         </li>
-        <li className="py-8 text-4xl">
+        <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -169,19 +181,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-8 text-4xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="work"
-            spy={true}
-            smooth={true}
-            duration={1500}
-          >
-            My work
-          </Link>
-        </li>
-        <li className="py-8 text-4xl">
+        <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -193,10 +193,22 @@ const Navbar = () => {
             About
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={1500}
+          >
+            My work
+          </Link>
+        </li>
         {/* <li onClick={handleClick} className="py-8 text-4xl">
           Skills
         </li> */}
-        <li className="py-8 text-4xl">
+        <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -208,7 +220,15 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className="py-8 text-5xl flex flex-row">
+        <li className="py-6 text-4xl">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1KcoO5m6PrdzQUlly8j0yyv8EpRW0GRfF"
+            download
+          >
+            Resume ↓
+          </a>
+        </li>
+        <li className="py-6 text-5xl flex flex-row">
           <a
             href="https://www.linkedin.com/in/maximiliano-e-cidron-full-stack/"
             className="px-6"

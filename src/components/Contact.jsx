@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen py-36 bg-light_background dark:bg-background transition-all duration-700">
+    <div name="contact" className="w-full h-full py-36 bg-light_background dark:bg-background transition-all duration-700">
       <form
         method="POST"
         action="https://getform.io/f/1e1b8951-3d7d-4ae6-aa6f-3d6515c450cd"
@@ -35,6 +35,7 @@ const Contact = () => {
             type="subject"
             placeholder="Subject"
             name="subject"
+            autoComplete="off"
             className="my-4 mx-6 p-2 border-2 font-semibold placeholder-light_text dark:placeholder-text border-light_structure dark:border-structure focus:border-2 focus:border-light_subtitle focus:dark:border-subtitle focus:outline-none bg-light_structure dark:bg-structure text-light_text dark:text-text lg:col-span-2 transition-all duration-700"
           />
           <textarea
@@ -43,6 +44,7 @@ const Contact = () => {
             placeholder="Message"
             cols="30"
             rows="10"
+            autoComplete="off"
             className="resize-none my-4 mx-6 p-2  border-2 font-semibold placeholder-light_text dark:placeholder-text border-light_structure dark:border-structure focus:border-2 focus:border-light_subtitle focus:dark:border-subtitle focus:outline-none bg-light_structure dark:bg-structure text-light_text dark:text-text lg:col-span-2 transition-all duration-700"
           ></textarea>
           <div className="my-4 flex items-center justify-center lg:col-span-2">

@@ -37,12 +37,12 @@ const Hero = () => {
                 spy={true}
                 smooth={true}
                 duration={1500}
-                className="relative mx-1 px-6 py-3 font-bold text-black group cursor-pointer transition-all duration-700"
+                className="relative mx-1 px-8 py-3 font-bold text-black group cursor-pointer transition-all duration-700"
               >
                 <span className="absolute inset-0 w-full h-full transition-all duration-700 transform -translate-x-1 -translate-y-1 bg-light_hover dark:bg-hover ease dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full transition-all duration-700 transform translate-x-1 translate-y-1 bg-light_hover dark:bg-hover ease opacity-50 dark:opacity-80 lg:group-hover:translate-x-0 lg:group-hover:translate-y-0 mix-blend-multiply dark:mix-blend-screen"></span>
                 <span className="relative">
-                  View Work ↓
+                  View Work
                 </span>
               </Link>
             </div>
